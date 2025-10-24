@@ -1,0 +1,23 @@
+# Streamlit Configuration
+
+[server]
+# 서버 설정
+headless = true
+port = 8501
+
+[logger]
+# 로그 레벨 설정
+level = "error"
+messageFormat = "%(asctime)s %(message)s"
+
+[runner]
+# PyTorch 관련 경고 억제
+fastReruns = true
+
+# 모듈 워처 비활성화 (파일 변경 감지 시 재시작 방지)
+[runner.magicEnabled]
+# magic commands 비활성화하여 불필요한 모듈 검사 방지
+
+[client]
+# 툴바 설정
+toolbarMode = "minimal"

@@ -1,0 +1,30 @@
+.module
+.build
+
+# Python virtual environment
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+share/
+etc/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
